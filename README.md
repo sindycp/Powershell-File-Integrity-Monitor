@@ -1,4 +1,4 @@
-# Powershell-File-Integrity-Monitor'
+# Powershell-File-Integrity-Monitor
 
 ## Project Overview
 This project illustrates the creation of a File Integrity Monitor (FIM) using basic coding principles and hashing techniques. The primary purpose is to safeguard file integrity by identifying any unauthorized alterations. It highlights the practical application of cryptographic hashing for monitoring and preserving the integrity of important files.
