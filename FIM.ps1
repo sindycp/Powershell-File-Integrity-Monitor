@@ -1,5 +1,5 @@
 ﻿﻿Function Calculate-File-Hash($filepath) {
-    $filehash = Get-FileHash -Path $filepath -Algorithm SHA512
+    $filehash = Get-FileHash -Path $filepath -Algorithm SHA256
     return $filehash
 }
 Function Erase-Baseline-If-Already-Exists() {
