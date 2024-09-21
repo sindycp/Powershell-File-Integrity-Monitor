@@ -81,7 +81,7 @@ elseif ($response -eq "B".ToUpper()) {
             $baselineFileStillExists = Test-Path -Path $key
             if (-Not $baselineFileStillExists) {
                 # One of the baseline files must have been deleted, notify the user
-                Write-Host "$($key) has been deleted!" -ForegroundColor DarkRed -BackgroundColor Gray
+                Write-Host "$($key) has been deleted!" -ForegroundColor Red
             }
         }
     }
